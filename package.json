@@ -1,6 +1,6 @@
 {
   "name": "redux.combinereducers",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Proposal redux combine one advance combineReducers.",
   "main": "index.js",
   "scripts": {
