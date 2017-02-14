@@ -1,0 +1,22 @@
+{
+  "name": "redux.combinereducers",
+  "version": "1.0.0",
+  "description": "Proposal redux combine one advance combineReducers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "redux",
+    "reducer",
+    "state"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "*"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1"
+  }
+}
