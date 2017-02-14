@@ -7,7 +7,7 @@ function objectGetAllKeys (obj) {
 function combineReducers (..._reducers) {
   /* Normalize Reducers */
   const reducers = _reducers.map((proposalReducer) => {
-    if (typeof(proposalReducer) === 'function') {
+    if (typeof (proposalReducer) === 'function') {
       return proposalReducer
     } else {
       return (state, action) => {
@@ -33,7 +33,7 @@ function combineReducers (..._reducers) {
 
   return function combination (state, action) {
     return Array.prototype.reduce.call([state, ...reducers], function (currentState, reducer) {
-      const nextState = reducer(currentState, action, {a:3})
+      const nextState = reducer(currentState, action, {a: 3})
 
       // console.log({currentState, nextState})
 
